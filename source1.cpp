@@ -25,7 +25,7 @@ inline void matrixXvector(const std::vector<std::vector<double>>& a
     for (std::size_t i = 0; i < a.size(); i++) {
         sum = 0;
         for (std::size_t j = 0; j < a[i].size(); j++) {
-            sum += a[i][j] x[j];
+            sum += a[i][j]*x[j];
         }
       //bgalama apotelesma ths proths grammhs tou a epi to dianysma 
         b.emplace_back(sum);//kai apla to dinoume san stoixeio ston pinaka san na legame b[i]=sum;
