@@ -100,7 +100,7 @@ int main() {//this code performs gauss elimination
                 a[i][j] = a[i][j] - kati * a[k][j];//or a[i][j]-=katia[k][j]
 
             }
-            b[i] = b[i] - kati b[k];
+            b[i] = b[i] - kati*b[k];
         }
 
     }
