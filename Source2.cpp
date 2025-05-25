@@ -1,3 +1,5 @@
+//GAUSS ELIMINATION CODE
+
 #include<iostream>//for input output 
 #include<vector>//for std::vector
 #include<cstdlib>//for std::exit std::system std::size_t 
