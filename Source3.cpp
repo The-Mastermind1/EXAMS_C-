@@ -3,6 +3,7 @@
 //
 //treje ton kodika auto gia na deite kai eseis ti bgazei
 //
+//paidia steilte mou mynhma ton aritmo mhtrowu kai to onoma sas gia na sas symperilabo sthn ejetash kante mou issue edo sto repository 
 #include <iostream> //for input output
 #include <vector>//for std::vector
 #include<cstdlib>//for std::size_t 
