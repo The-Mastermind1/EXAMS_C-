@@ -20,9 +20,9 @@ inline void printmatrix(const std::vector<double>& b) {//just prints the matrix
 //multiplication matrix * vector 
 inline void matrixXvector(const std::vector<std::vector<double>>& a
     , const std::vector<double>& x) {//ax= b b the result 
-    assert(a.size() > 0 && a[0].size() > 0);//for  debug teoroume nte kai kala oti auto 
+    //for  debug teoroume nte kai kala oti auto 
     //den ta ginei pote false alliws kaname patata 
-    assert(a[0].size() == x.size());
+    
     std::vector<double>b{};
     b.reserve(a.size());//oxi a[0].size() problhma leme apla oti to plhtos stoixeion tou b ta einai oso to plhtos ton grammon tou a  
     double sum{};
