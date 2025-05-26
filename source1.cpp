@@ -7,7 +7,6 @@
 #include<vector>
 #include<cassert>
 #include<cstdlib>
-#include<cassert>
 //print the matrix to see the results 
 inline void printmatrix(const std::vector<double>& b) {//just prints the matrix 
 
